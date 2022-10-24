@@ -1,0 +1,23 @@
+﻿No,App Name,Security Bug,Application URL
+1,Sieve,"1. Insecure Local Storage
+2. Insufficient IPC Permission",https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk
+2,Android Crypt,"1. Keyboard cache enabled on sensitive data
+2. Unprotected Password in Memory",https://play.google.com/store/apps/details?id=com.dewdrop623.androidcrypt&hl=in
+3,Diva,"1. Insecure Local Storage
+2. Hardcoded Credential
+3. Access Control not enforced in server side
+4. Insecure logging
+5. Unprotected Password in memory
+6. Keyboard cache enabled on sensitive data",http://www.payatu.com/wp-content/uploads/2016/01/diva-beta.tar.gz
+4,MSTG-Playground,"1. Insecure Local Storage
+2. Hardcoded Credential
+3. Unencrypted SQLite DB
+4. Unprotected Password in Memory
+5. Uneccessary Javascript Feature Enabled on Webview
+6. SQL Injection on Content Provider
+7. Insufficient secure channel",https://github.com/ne0z/MSTG-PLAYGROUND/blob/master/MSTG_PLAYGROUND_JAVA_x86_64.apk?raw=truedanhttps://github.com/OWASP/MSTG-Hacking-Playground/releases/download/1.0/MSTG-Android-Kotlin.apk
+5,Insecure Bank,"1. Weak Cryptography
+2. Insecure logging
+3. Keyboard cache enabled on sensitive data
+4. Insecure App Backup
+5. Insecure IPC interaction",https://s.id/lGuJb

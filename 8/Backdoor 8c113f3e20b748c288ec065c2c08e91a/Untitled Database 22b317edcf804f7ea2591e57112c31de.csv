@@ -1,0 +1,3 @@
+﻿No,Bind TCP,Reverse TCP
+1,Tidak berjalan jika firewall menghalangi port yang dibuka backdoor,Mampu melewati firewall karena server dipaksa menghubungi komputer penyerang
+2,Penyerang tidak perlu IP Public,Penyerang harus memiliki IP Public atau minimal punya domain yang bisa di forward ke komputer kita

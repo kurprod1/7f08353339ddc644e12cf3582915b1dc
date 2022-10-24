@@ -1,0 +1,2088 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Misconfiguration & Sensitive Data Exposure · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 4.0.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="BrokenAuthentication.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1/">
+            
+                <a href="../1/">
+            
+                    
+                    Cyber Security Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1/Introduction.html">
+            
+                <a href="../1/Introduction.html">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1/MembuatObjektifBelajar.html">
+            
+                <a href="../1/MembuatObjektifBelajar.html">
+            
+                    
+                    Membuat Objektif Belajar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1/YourBigProject.html">
+            
+                <a href="../1/YourBigProject.html">
+            
+                    
+                    Your Big Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1/5-min-ReadKenapaIndustriMembutuhkanCybersecurity.html">
+            
+                <a href="../1/5-min-ReadKenapaIndustriMembutuhkanCybersecurity.html">
+            
+                    
+                    5-min-Read: Kenapa Industri Membutuhkan Cybersecurity
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1/5-minReadCybersecurityEngineer.html">
+            
+                <a href="../1/5-minReadCybersecurityEngineer.html">
+            
+                    
+                    5-min-Read: Cybersecurity Engineer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../1/5-minReadSkillseorangCybersecurityEngineer.html">
+            
+                <a href="../1/5-minReadSkillseorangCybersecurityEngineer.html">
+            
+                    
+                    5-min-Read: Skill seorang CyberSecurity Engineer
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../2/">
+            
+                <a href="../2/">
+            
+                    
+                    Networking Fundamental
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../2/LabFindtheImposter.html">
+            
+                <a href="../2/LabFindtheImposter.html">
+            
+                    
+                    Lab: Find the Imposter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../2/NetworkingFundamental.html">
+            
+                <a href="../2/NetworkingFundamental.html">
+            
+                    
+                    Networking Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../2/TCPIPConcept.html">
+            
+                <a href="../2/TCPIPConcept.html">
+            
+                    
+                    TCP/IP Concept
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="../2/IPAddress.html">
+            
+                <a href="../2/IPAddress.html">
+            
+                    
+                    IP Address
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../2/PacketHeader.html">
+            
+                <a href="../2/PacketHeader.html">
+            
+                    
+                    Packet Header
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../2/PortProtocol.html">
+            
+                <a href="../2/PortProtocol.html">
+            
+                    
+                    Port & Protocol
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="../2/ToolsuntukAnalisaNetwork.html">
+            
+                <a href="../2/ToolsuntukAnalisaNetwork.html">
+            
+                    
+                    Tools untuk Analisa Network
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../3/">
+            
+                <a href="../3/">
+            
+                    
+                    Operation System Fundamental
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../3/ProjectforThisSection.html">
+            
+                <a href="../3/ProjectforThisSection.html">
+            
+                    
+                    Project for This Section
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../3/KonsepOSdanServer.html">
+            
+                <a href="../3/KonsepOSdanServer.html">
+            
+                    
+                    Konsep OS dan Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../3/LinuxIntroduction.html">
+            
+                <a href="../3/LinuxIntroduction.html">
+            
+                    
+                    Linux Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../3/InstalasiKaliLinux.html">
+            
+                <a href="../3/InstalasiKaliLinux.html">
+            
+                    
+                    Instalasi Kali Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="../3/LinuxBasicCommand.html">
+            
+                <a href="../3/LinuxBasicCommand.html">
+            
+                    
+                    Linux Basic Command
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../4/">
+            
+                <a href="../4/">
+            
+                    
+                    Penetration Testing Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../4/DigintotheTarget.html">
+            
+                <a href="../4/DigintotheTarget.html">
+            
+                    
+                    Project: Dig into the Target
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../4/PenetrationTestingIntroduction.html">
+            
+                <a href="../4/PenetrationTestingIntroduction.html">
+            
+                    
+                    Penetration Testing Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../4/PenetrationTestingPhases.html">
+            
+                <a href="../4/PenetrationTestingPhases.html">
+            
+                    
+                    Penetration Testing Phases
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../4/InformationGathering.html">
+            
+                <a href="../4/InformationGathering.html">
+            
+                    
+                    Information Gathering
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.4.1" data-path="../4/FootprintingFingerprinting.html">
+            
+                <a href="../4/FootprintingFingerprinting.html">
+            
+                    
+                    Footprinting & Fingerprinting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.2" data-path="../4/PassiveInformationGathering.html">
+            
+                <a href="../4/PassiveInformationGathering.html">
+            
+                    
+                    Passive Information Gathering
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.4.2.1" data-path="../4/Dmitry.html">
+            
+                <a href="../4/Dmitry.html">
+            
+                    
+                    Dmitry
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.2.2" data-path="../4/Maltego.html">
+            
+                <a href="../4/Maltego.html">
+            
+                    
+                    Maltego
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.2.3" data-path="../4/theHarvester.html">
+            
+                <a href="../4/theHarvester.html">
+            
+                    
+                    theHarvester
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.3" data-path="../4/ActiveInformationGathering.html">
+            
+                <a href="../4/ActiveInformationGathering.html">
+            
+                    
+                    Active Information Gathering
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.4.3.1" data-path="../4/Nmap.html">
+            
+                <a href="../4/Nmap.html">
+            
+                    
+                    Nmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.3.2" data-path="../4/Shodan.html">
+            
+                <a href="../4/Shodan.html">
+            
+                    
+                    Shodan
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Server-side Vulnerabilities
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="5.1.1" data-path="MisconfigurationSensitiveDataExposure.html">
+            
+                <a href="MisconfigurationSensitiveDataExposure.html">
+            
+                    
+                    Misconfiguration & Sensitive Data Exposure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="BrokenAuthentication.html">
+            
+                <a href="BrokenAuthentication.html">
+            
+                    
+                    Broken Authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="CommandInjection.html">
+            
+                <a href="CommandInjection.html">
+            
+                    
+                    Command Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="SQLInjection.html">
+            
+                <a href="SQLInjection.html">
+            
+                    
+                    SQL Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="InformationDisclosure.html">
+            
+                <a href="InformationDisclosure.html">
+            
+                    
+                    Information Disclosure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="FileUploadVulnerability.html">
+            
+                <a href="FileUploadVulnerability.html">
+            
+                    
+                    File Upload Vulnerability
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../6/">
+            
+                <a href="../6/">
+            
+                    
+                    Client-side Vulnerabilities
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="../6/XSS.html">
+            
+                <a href="../6/XSS.html">
+            
+                    
+                    XSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1.1" data-path="../6/Cross-siteScriptingXSS.html">
+            
+                <a href="../6/Cross-siteScriptingXSS.html">
+            
+                    
+                    Cross-Site Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.2" data-path="../6/SecurityStandards.html">
+            
+                <a href="../6/SecurityStandards.html">
+            
+                    
+                    Security Standards
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.3" data-path="../6/XSSCategories.html">
+            
+                <a href="../6/XSSCategories.html">
+            
+                    
+                    XSS Categories
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.4" data-path="../6/XSSAttack.html">
+            
+                <a href="../6/XSSAttack.html">
+            
+                    
+                    XSS Attack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.5" data-path="../6/XSSMitigation.html">
+            
+                <a href="../6/XSSMitigation.html">
+            
+                    
+                    XSS Mitigation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.6" data-path="../6/Exercises.html">
+            
+                <a href="../6/Exercises.html">
+            
+                    
+                    Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.1.7" data-path="../6/LabsXSS.html">
+            
+                <a href="../6/LabsXSS.html">
+            
+                    
+                    Labs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="../6/CSRF.html">
+            
+                <a href="../6/CSRF.html">
+            
+                    
+                    CSRF
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.2.1" data-path="../6/Cross-siteRequestForgery.html">
+            
+                <a href="../6/Cross-siteRequestForgery.html">
+            
+                    
+                    Cross-site Request Forgery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2" data-path="../6/ExploitChain.html">
+            
+                <a href="../6/ExploitChain.html">
+            
+                    
+                    Exploit Chain (CSRF + XSS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.3" data-path="../6/Exercise.html">
+            
+                <a href="../6/Exercise.html">
+            
+                    
+                    Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.4" data-path="../6/Exercise.html">
+            
+                <a href="../6/Exercise.html">
+            
+                    
+                    Kesimpulan
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.5" data-path="../6/BugBountyTips.html">
+            
+                <a href="../6/BugBountyTips.html">
+            
+                    
+                    Bug Bounty Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="../6/Cross-OriginResourceSharing.html">
+            
+                <a href="../6/Cross-OriginResourceSharing.html">
+            
+                    
+                    CORS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.3.1" data-path="../6/CORSExampleScenario.html">
+            
+                <a href="../6/CORSExampleScenario.html">
+            
+                    
+                    CORS Sample Scenario
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.2" data-path="../6/CORSMitigations.html">
+            
+                <a href="../6/CORSMitigations.html">
+            
+                    
+                    CORS Mitigations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3.3" data-path="../6/CORSHands-onLab.html">
+            
+                <a href="../6/CORSHands-onLab.html">
+            
+                    
+                    Hands-on Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="../6/ClickJacking.html">
+            
+                <a href="../6/ClickJacking.html">
+            
+                    
+                    Click-Jacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="../6/DOMbasedVulnerability.html">
+            
+                <a href="../6/DOMbasedVulnerability.html">
+            
+                    
+                    DOM-based Vulnerability
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.5.1" data-path="../6/DOMMitigations.html">
+            
+                <a href="../6/DOMMitigations.html">
+            
+                    
+                    Mitigations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5.2" data-path="../6/DOMHands-onLabs.html">
+            
+                <a href="../6/DOMHands-onLabs.html">
+            
+                    
+                    Hands-on Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6" data-path="../6/Websocket.html">
+            
+                <a href="../6/Websocket.html">
+            
+                    
+                    Websocket Vulnerabilities
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.6.1" data-path="../6/WebsocCommonVulnerabilities.html">
+            
+                <a href="../6/WebsocCommonVulnerabilities.html">
+            
+                    
+                    Common Vulnerabilities
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6.2" data-path="../6/websocMitigations.html">
+            
+                <a href="../6/websocMitigations.html">
+            
+                    
+                    Mitigations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6.3" data-path="../6/websocHands-onLabs.html">
+            
+                <a href="../6/websocHands-onLabs.html">
+            
+                    
+                    Hands-on Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../7/README.md">
+            
+                <span>
+            
+                    
+                    Advanced Topics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../7/Fuzzing.html">
+            
+                <a href="../7/Fuzzing.html">
+            
+                    
+                    Fuzzing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1.1" data-path="../7/FuzzingTechnique.html">
+            
+                <a href="../7/FuzzingTechnique.html">
+            
+                    
+                    Fuzzing Technique
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.1.2" data-path="../7/HTTPFuzzing.html">
+            
+                <a href="../7/HTTPFuzzing.html">
+            
+                    
+                    HTTP Fuzzing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.1.3" data-path="../7/FTPFuzzing.html">
+            
+                <a href="../7/FTPFuzzing.html">
+            
+                    
+                    FTP Fuzzing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.1.4" data-path="../7/FuzzExercise.html">
+            
+                <a href="../7/FuzzExercise.html">
+            
+                    
+                    Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../7/Cryptography.html">
+            
+                <a href="../7/Cryptography.html">
+            
+                    
+                    Cryptography
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.2.1" data-path="../7/SymmetricEncryption.html">
+            
+                <a href="../7/SymmetricEncryption.html">
+            
+                    
+                    Symmetric Encription
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2.2" data-path="../7/AsymmetricEncryption.html">
+            
+                <a href="../7/AsymmetricEncryption.html">
+            
+                    
+                    Asymmetric Encription
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2.3" data-path="../7/HashFunction.html">
+            
+                <a href="../7/HashFunction.html">
+            
+                    
+                    Hash Function
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2.4" data-path="../7/CryptoAttack.html">
+            
+                <a href="../7/CryptoAttack.html">
+            
+                    
+                    Crypto Attack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2.5" data-path="../7/CrypExercises.html">
+            
+                <a href="../7/CrypExercises.html">
+            
+                    
+                    Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="../7/MobileExploitation.html">
+            
+                <a href="../7/MobileExploitation.html">
+            
+                    
+                    Mobile Exploitation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.3.1" >
+            
+                <span>
+            
+                    
+                    [Android]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.3.1.1" data-path="../7/PengenalanArsitekturAndroid.html">
+            
+                <a href="../7/PengenalanArsitekturAndroid.html">
+            
+                    
+                    Pengenalan Arsitektur Android
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.2" data-path="../7/MempersiapkanAPKStudio.html">
+            
+                <a href="../7/MempersiapkanAPKStudio.html">
+            
+                    
+                    Mempersiapkan APK Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.3" data-path="../7/MempersiapkanFrida.html">
+            
+                <a href="../7/MempersiapkanFrida.html">
+            
+                    
+                    Mempersiapkan Frida
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.4" data-path="../7/PengenalanDecompile.html">
+            
+                <a href="../7/PengenalanDecompile.html">
+            
+                    
+                    Pengenalan Decompile & Patching dengan APK Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.5" data-path="../7/DasarPenggunaanFrida.html">
+            
+                <a href="../7/DasarPenggunaanFrida.html">
+            
+                    
+                    Basic Frida
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.6" data-path="../7/KonsepSSLpadaAndroid.html">
+            
+                <a href="../7/KonsepSSLpadaAndroid.html">
+            
+                    
+                    Konsep SSL pada Android
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.7" data-path="../7/IntersepsiLaluLintasData.html">
+            
+                <a href="../7/IntersepsiLaluLintasData.html">
+            
+                    
+                    Intersepsi Lalu Lintas Data Android dengan Burp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.8" data-path="../7/SSLPinning.html">
+            
+                <a href="../7/SSLPinning.html">
+            
+                    
+                    SSL Pinning
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.9" data-path="../7/PersiapanLabAndro.html">
+            
+                <a href="../7/PersiapanLabAndro.html">
+            
+                    
+                    Persiapan Lab
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.10" data-path="../7/PenggunaanDrozer.html">
+            
+                <a href="../7/PenggunaanDrozer.html">
+            
+                    
+                    Penggunaan Drozer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.11" data-path="../7/AndroidSecurityChecklist.html">
+            
+                <a href="../7/AndroidSecurityChecklist.html">
+            
+                    
+                    Android Security Checklist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.1.12" >
+            
+                <span>
+            
+                    
+                    [Exercise]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.2" data-path="../7/PengenalaniOS.html">
+            
+                <a href="../7/PengenalaniOS.html">
+            
+                    
+                    iOS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.3.2.1" data-path="../7/iOSFundamental.html">
+            
+                <a href="../7/iOSFundamental.html">
+            
+                    
+                    iOS Fundamental
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.2.2" data-path="../7/DeviceSetup.html">
+            
+                <a href="../7/DeviceSetup.html">
+            
+                    
+                    Device Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3.2.3" data-path="../7/iOSApplicationPenetrationTesting.html">
+            
+                <a href="../7/iOSApplicationPenetrationTesting.html">
+            
+                    
+                    iOS Application Penetration Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" data-path="../7/PengenalanAPI.html">
+            
+                <a href="../7/PengenalanAPI.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.4.1" data-path="../7/PersiapanLabAPI.html">
+            
+                <a href="../7/PersiapanLabAPI.html">
+            
+                    
+                    Persiapan LAB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4.2" data-path="../7/KenapaPerluAutomation.html">
+            
+                <a href="../7/KenapaPerluAutomation.html">
+            
+                    
+                    Kenapa Perlu Automation?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4.3" data-path="../7/PenggunaanPostman.html">
+            
+                <a href="../7/PenggunaanPostman.html">
+            
+                    
+                    Penggunaan Postman
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4.4" data-path="../7/Risk-BasedandFunctionalSecurity.html">
+            
+                <a href="../7/Risk-BasedandFunctionalSecurity.html">
+            
+                    
+                    Risk-Based and Functional Security Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4.5" data-path="../7/APIExercises.html">
+            
+                <a href="../7/APIExercises.html">
+            
+                    
+                    Exercise
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../8/PostExploitation.html">
+            
+                <a href="../8/PostExploitation.html">
+            
+                    
+                    Post Exploitation
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" data-path="../8/MaintainAccess.html">
+            
+                <a href="../8/MaintainAccess.html">
+            
+                    
+                    Maintain Access
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1.1" >
+            
+                <span>
+            
+                    
+                    [Persiapan Lab]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.1.2" >
+            
+                <span>
+            
+                    
+                    [Backdoor]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.1.3" >
+            
+                <span>
+            
+                    
+                    [Alternative Reverse dan Blind Shell]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" data-path="../8/ReportWriting.html">
+            
+                <a href="../8/ReportWriting.html">
+            
+                    
+                    Report Writing
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.2.1" >
+            
+                <span>
+            
+                    
+                    [Pentest Report]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.2" >
+            
+                <span>
+            
+                    
+                    [Executive Summary]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.3" >
+            
+                <span>
+            
+                    
+                    [Methodology]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.4" >
+            
+                <span>
+            
+                    
+                    [Technical Documentation of Penetration Test]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.5" >
+            
+                <span>
+            
+                    
+                    [Vulnerability Detail and Mitigation]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.6" >
+            
+                <span>
+            
+                    
+                    [End of Page]
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2.7" >
+            
+                <span>
+            
+                    
+                    [Sample Report]
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Misconfiguration & Sensitive Data Exposure</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="misconfiguration--sensitive-data-exposure">Misconfiguration &amp; Sensitive Data Exposure</h1>
+<p>Misconfiguration biasanya didefinisikan sebagai kegagalan untuk menerapkan semua kontrol keamanan untuk server atau aplikasi web, atau mengimplementasikan kontrol keamanan, tetapi melakukannya dengan kesalahan. Lebih jelasnya bisa dipastikan bahwa aplikasi yang akan kita gunakan cukup memiliki berbagai fitur keamanan. Namun sangat disayangkan pengetahuan Tim Software Engineer terhadap keamanan sangat kurang. Sehingga kontrol keamanan tersebut tidak diimplementasikan dengan benar.</p>
+<p><img src="https://lh4.googleusercontent.com/9rTdh69PZvXZSCPOPp2XGLGr0oW-EllHAPHsBwH4MKL8M1Luo3Mq0UPEPfyWvh8j3RGfCxfy-eNBIo71yW1SDqGZCcJoD86M2Wgpe-6oOSwI8TCD5TWxmylKGKc654OenwPAlbEngpBWX4qtR7RBb-EcFjM" alt="Gambar: OWASP TOP 10 - Security misconfiguration"></p>
+<p>Gambar: OWASP TOP 10 - Security misconfiguration</p>
+<p>Selain karena kurangnya wawasan di bidang Cyber Security, bisa juga disebabkan oleh kultur perusahaan yang sering terjadi <strong><em>over engineering</em></strong> berlebihan. Istilah tersebut mulai populer di kalangan perusahaan startup.</p>
+<p>Agar paham dengan hal tersebut, penjelasan over engineering contohnya ketika perusahaan baru (belum dewasa) ingin membuat produk software dengan teknologi terbaru meski traffic masih sedikit dengan tim yang sangat terbatas. Sesuatu yang sederhana bisa diselesaikan dengan teknologi lama misal dengan konsep monolith (PHP, MySQL, Apache). Namun jadi rumit ketika memaksakan banyak teknologi terbaru diterapkan apalagi dengan sumber daya terbatas. Akhirnya akan menyebabkan terjadi konfigurasi sistem yang tidak optimal dan penguasaan teknologi yang kurang maksimal.</p>
+<p>Kelalaian proses di tahapan code review juga bisa mengakibatkan munculnya misconfiguration vulnerability di production server. Cukup banyak yang jadi sebab tapi intinya adalah tugas kalian sebagai Security Engineer untuk segera mengevaluasi dan menemukan lebih cepat sebelum terjadi serangan.</p>
+<p>Misconfiguration memiliki dampak berbagai banyak hal mulai dari server berhasil diambil alih oleh Penyerang. Hingga menyebabkan banyak kebocoran data yang tidak terhitung kerugian perusahaan.</p>
+<h1 id="references">References</h1>
+<ul>
+<li><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration" target="_blank">A6:2017-Security Misconfiguration</a></li>
+</ul>
+<h1 id="study-case">Study Case</h1>
+<h2 id="elasticsearch--kibana">ElasticSearch &amp; Kibana</h2>
+<p>Perusahaan startup menggunakan ElasticSearch guna untuk menyimpan log secara terdistribusi dan menggunakan dashboard Kibana dalam melakukan visualisasi data. Kali ini kita akan mempraktikkan instalasi ElasticSearch dan Kibana dengan docker compose.</p>
+<p>Docker-compose adalah alat untuk mendefinisikan dan menjalankan aplikasi beberapa docker container bersamaan. Dengan tool ini, kita bisa menggunakan file YAML untuk mengkonfigurasi aplikasi Anda. Kemudian, dengan satu perintah, kita bisa membuat dan memulai semua service.  Nah, Lakukan perintah berikut jika docker compose belum pernah dipasang di laptop kalian.</p>
+<pre><code class="lang-bash">$ sudo curl -L <span class="hljs-string">&quot;https://github.com/docker/compose/releases/download/1.25.5/docker-compose-<span class="hljs-subst">$(uname -s)</span>-<span class="hljs-subst">$(uname -m)</span>&quot;</span> -o /usr/<span class="hljs-built_in">local</span>/bin/docker-compose
+$ sudo chmod +x /usr/<span class="hljs-built_in">local</span>/bin/docker-compose
+</code></pre>
+<p>Selanjutnya kita siapkan contoh proyek docker dari repository dan menjalankannya dengan perintah dibawah ini :</p>
+<pre><code class="lang-bash">$ git <span class="hljs-built_in">clone</span> https://github.com/ne0z/SecurityMisconfigurationByExample.git
+$ <span class="hljs-built_in">cd</span> VulnerableElasticSearchWithKibana$ docker-compose up -d
+</code></pre>
+<p><img src="https://lh3.googleusercontent.com/eURLWbKfYSOKoBA-h4OMBKndgRw09iJ-FjFWZVArGhTpT66UHW3rvay3Z7EfEeIUTebKakt0K2bww93h3Uo_CxKL_6VvSbiS8kacfdfK3hI2IOkCo39-SHhwZJINopGNKEdRurZ7dDoRYsblJ_GCnZkVufI" alt="Gambar: ElasticSearch &amp; Kibana tidak mengimplementasikan autentikasi"></p>
+<p>Gambar: ElasticSearch &amp; Kibana tidak mengimplementasikan autentikasi</p>
+<p>Dan untuk mematikan server kalian bisa menggunakan perintah <strong>docker-compose down -v</strong> pada direktori yang sama.</p>
+<p>Kalian bisa membuka Kibana di alamat <strong><a href="http://localhost:5601" target="_blank">http://localhost:5601</a></strong>. Seperti yang terlihat pada gambar diatas dashboard Kibana tidak menerapkan otentikasi diawal. Perlu diketahui bahwa untuk menerapkan otentikasi kita harus mengaktifkan lisensi komersial dan mengkonfigurasinya secara manual. Panduan konfigurasi bisa teman-teman akses melalui situs :</p>
+<ul>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/reference/6.8/get-started-enable-security.html" target="_blank">https://www.elastic.co/guide/en/elasticsearch/reference/6.8/get-started-enable-security.html</a></li>
+<li><a href="https://www.elastic.co/guide/en/kibana/current/kibana-authentication.html" target="_blank">https://www.elastic.co/guide/en/kibana/current/kibana-authentication.html</a></li>
+</ul>
+<p>Alternatif yang lebih mudah, open distro elasticsearch dikembangkan untuk kebutuhan keamanan. Open distro dikembangkan untuk kalangan komunitas namun masih layak untuk digunakan di production. Bedanya jika elasticsearch sebelumnya kita harus memiliki lisensi berbayar agar semua fitur security bisa digunakan dan mendapatkan dukungan penuh resmi dari elasticsearch. Untuk Open distro kita hanya memiliki dukungan dari kontribusi komunitas open source. Tapi menurut saya ini cukup membantu mengatasi masalah autentikasi Kibana dengan biaya yang terjangkau.</p>
+<p>Untuk menjalankan elasticsearch dari open distro, teman-teman bisa mengikuti perintah sebagai berikut :</p>
+<pre><code class="lang-bash">$ docker pull amazon/opendistro-for-elasticsearch:1.6.0
+$ docker pull amazon/opendistro-for-elasticsearch-kibana:1.6.0
+$ docker run -p 9200:9200 -p 9600:9600 -e <span class="hljs-string">&quot;discovery.type=single-node&quot;</span> amazon/opendistro-for-elasticsearch:1.6.0
+</code></pre>
+<p>Exercise</p>
+<ol>
+<li>Sebagai penyerang apa saja yang bisa kalian dapatkan dari kerentanan elasticsearch diatas ? Jelaskan !</li>
+<li>Pelajari misconfiguration pada ElasticSearch dan Kibana. Kemudian sebagai seorang Security Engineer atau Penetration tester buatlah rekomendasi berupa solusi menutup kerentanan ini !</li>
+</ol>
+<h3 id="bug-bounty-tips"><strong>Bug bounty tips</strong>:</h3>
+<p>Teman-teman bisa menggunakan shodan.io untuk mencari vulnerable elasticsearch yang tidak memiliki autentikasi. Biasanya kibana berjalan pada port 5601, jadi kalian bisa menggunakan query shodan untuk mencari berdasarkan port 5601.</p>
+<h2 id="kesalahan-konfigurasi-web-server-dan-app-pada-docker"><strong><strong>Kesalahan Konfigurasi Web Server dan App pada Docker</strong></strong></h2>
+<p>Kita dapat membuat <em>docker image</em> secara otomatis dengan membaca instruksi dari Dockerfile. Jadi Dockerfile ini merupakan dokumen teks yang berisi semua perintah yang bisa dipanggil pengguna pada baris perintah untuk merakit <em>docker image</em>.</p>
+<h3 id="lab">Lab</h3>
+<p>Untuk menguji aplikasi web tersebut kita bisa memulai dengan memetakan URL menggunakan software <strong>dirsearch</strong>. Dirsearch adalah tool berbasis Python yang digunakan untuk memindai direktori web dan file tersembunyi. Teknik Dictionary Attack dipakai di dalam tool ini sehingga mampu menemukan file dan folder. Dictionary Attack memanfaatkan pustaka berisi kata-kata yang sudah didefinisikan sehingga aplikasi Dirsearch cukup mengurutkan daftar kata-kata (wordlist) untuk dicoba pada web app apakah URL tersebut ada (ditandai dengan kode respon HTTP 200, 301, 403) atau tidak (ditandai dengan kode respon HTTP selain 404)</p>
+<p>Dirsearch dapat berjalan di Windows, Linux, dan macOS, dan ia menawarkan antarmuka baris perintah yang sederhana, namun kuat. Dengan fitur-fitur seperti multithreading, dukungan proxy, penundaan permintaan, pengacakan agen pengguna, dan dukungan untuk beberapa ekstensi. Jika dalam OS kalian belum terpasang dirsearch, teman-teman bisa mengikuti perintah dibawah ini :</p>
+<pre><code class="lang-bash">$ git <span class="hljs-built_in">clone</span> https://github.com/maurosoria/dirsearch.git
+$ <span class="hljs-built_in">cd</span> dirsearch
+</code></pre>
+<p>Selanjutnya kita akan memindai URL pada aplikasi web dengan alamat <a href="http://localhost" target="_blank">http://localhost</a> menggunakan dirsearch. Biasanya ini masuk dalam tahapan awal active information gathering sehingga setelah ini kita akan membahas bagaimana proses identifikasi celah dari temuannya.</p>
+<pre><code class="lang-bash">$ python3 dirsearch.py -u http://[masukkan_url_disini] -e php,css,asp
+Target: http://localhost
+[22:28:34] Starting:[22:28:34] 400 -  157B  - /%2e%2e/google.com
+[22:28:36] 301 -  169B  - /.git  -&gt;  http://localhost/.git/....
+[22:28:36] 200 -   58B  - /.gitignore....
+[22:28:37] 403 -  555B  - /.htaccess~
+[22:28:37] 403 -  555B  - /.htpasswd-old
+[22:28:37] 403 -  555B  - /.htusers
+[22:28:37] 403 -  555B  - /.htpasswds
+[22:28:37] 403 -  555B  - /.htpasswd_test
+[22:28:50] 403 -  555B  - /admin/.htaccess
+[22:29:02] 403 -  555B  - /administrator/.htaccess
+[22:29:06] 301 -  169B  - /app  -&gt;  http://localhost/app/
+[22:29:06] 403 -  555B  - /app/.htaccess
+[22:29:07] 301 -  169B  - /assets  -&gt;  http://localhost/assets/
+[22:29:15] 200 -  817B  - /composer.json
+[22:29:15] 200 -  126KB - /composer.lock
+[22:29:19] 301 -  169B  - /database  -&gt;  http://localhost/database/
+[22:29:20] 403 -  555B  - /database/[22:29:34] 200 -    2KB - /index.php
+[22:29:54] 200 -  903B  - /phpunit.xml
+[22:29:56] 301 -  169B  - /public  -&gt;  http://localhost/public/
+[22:29:57] 200 -  775B  - /readme.md
+[22:29:57] 301 -  169B  - /resources  -&gt;  http://localhost/resources/
+[22:30:04] 301 -  169B  - /storage  -&gt;  http://localhost/storage/
+[22:30:07] 301 -  169B  - /tests  -&gt;  http://localhost/tests/
+[22:30:07] 403 -  555B  - /tests/
+[22:30:11] 200 -    0B  - /vendor/autoload.php
+</code></pre>
+<p>Dari aplikasi Dirsearch kita menemukan URL yang rentan mulai dari .git yang berisi informasi mengenai <em>source code</em> dan <em>version control</em>. Kemudian diikuti dengan composer.json yang berisi dependency apa yang terpasang di aplikasi web tersebut.</p>
+<h2 id="redis-tanpa-authentikasi">Redis Tanpa Authentikasi</h2>
+<p>Redis, singkatan dari Remote Dictionary Server, adalah penyimpanan data nilai utama di dalam memori yang super cepat dengan sumber terbuka untuk digunakan sebagai database, cache, broker pesan, dan antrian.</p>
+<p>Biasanya redis di arsitektur microservice untuk menyimpan data seperti token user, hal ini dikarenakan redis yang terbukti mampu melayani permintaan dengan performa cepat. Selain itu redis memiliki fitur seperti expire key dimana sebagai developer bisa memberikan waktu kapan data itu akan dihapus secara otomatis. Hal ini sangat diperlukan terutama untuk penyimpanan token autentikasi yang dibatasi misal 1 hari. Jika user sudah melebihi 1 hari maka token tersebut menjadi tidak valid.</p>
+<p>Sayangnya redis ketika kita pasang di server tidak menerapkan autentikasi keamanan. Kita harus mengatur secara manual untuk itu mengikuti dari kebutuhan perusahaan. Artinya jika kita bisa mengakses redis tanpa autentikasi tersebut akan ada kemungkinan besar kita mendapatkan token-token dari user yang sudah login.</p>
+<p>Dari kasus tersebut kita bisa login menggunakan token tersebut untuk mengakses halaman sensitif seperti my profile dan lain sebagainya. Akhirnya kita bisa mendapatkan data user dengan begitu banyak.</p>
+<p>Untuk memahami lebih detail teman-teman bisa mencoba redis menggunakan perintah berikut:</p>
+<pre><code class="lang-bash">$ docker run -d --name redis -p 0.0.0.0:6379:6379 redis:latest
+</code></pre>
+<p>Redis akan berjalan pada port 6379 dan untuk mengaksesnya kita perlu memasang redis-client pada laptop kita.</p>
+<pre><code class="lang-bash">$ apt-get update$ apt-get install redis-tools
+</code></pre>
+<p>Kita mulai menambahkan data dulu kedalam redis</p>
+<pre><code class="lang-bash">$ redis-cli -h 127.0.0.1$ SET 1234 <span class="hljs-string">&apos;{&quot;username&quot;:&quot;danang&quot;,&quot;password&quot;:&quot;c935ea8b4360d0ddce46d43e51f69487c3510266&quot;,&quot;email&quot;:&quot;danang@sekolahhacker.com&quot;}&apos;</span>
+$ <span class="hljs-built_in">exit</span>
+</code></pre>
+<p>Perintah diatas dimaksudkan untuk menambahkan data kredensial berupa JSON dengan key 1234 yang merupakan token. Untuk mengeksploitasi redis yang tidak memiliki otentikasi, teman-teman bisa mengikuti perintah dibawah ini untuk mendapatkan semua key :</p>
+<pre><code class="lang-bash">$ redis-cli -h 127.0.0.1 --scan --pattern <span class="hljs-string">&apos;*&apos;</span>
+</code></pre>
+<p>Selanjutnya teman-teman perlu mendapatkan value dari key yang sudah didapatkan :</p>
+<pre><code class="lang-bash">$ redis-cli -h 127.0.0.1 GET 1234
+</code></pre>
+<p><img src="https://lh6.googleusercontent.com/2d4zUgOQ_ZXQtwwI78QCkgoM_8TZS9qdPGlPnrTGhg1TtVunamzJkQ1IcYEyGCtBTVDl-q13dFcQA_0aZkd0I7QL2O2O-AZcXpz1GW3dtQAcLQMkpaVU7n-3LS1ji-CL3cC79kPS6Ps94YhxHA" alt="Gambar: Data kredensial dari Redis"></p>
+<p>Gambar: Data kredensial dari Redis</p>
+<p><img src="Misconfiguration%20&amp;%20Sensitive%20Data%20Exposure%20e41edbca6b4340ef84d373d4acd36a06/Untitled.png" alt="Gambar: Hasil pencarian server redis yang tidak menerapkan autentikasi"></p>
+<p>Gambar: Hasil pencarian server redis yang tidak menerapkan autentikasi</p>
+<p>Nah begitulah kira-kira kita bisa mengeksploitasi redis, sekedar pengetahuan untuk kalian. Bahwa jika kita tinjau menggunakan shodan.io dengan query <strong>port:6379 redis_version</strong>. Akan ditemukan sebanyak 29.542 server yang tidak menerapkan autentikasi pada redis !</p>
+<p>Kesimpulan dari materi ini teman-teman agar bisa menemukan kerentanan terbaru di aplikasi yang lain sedikit memerlukan penelitian terhadap aplikasi. Biasanya bisa dilakukan dengan mencoba memasang aplikasi yang sering digunakan perusahaan-perusahaan startup. Setelah itu kita mengamati kelalaian apa yang kemungkinan terjadi.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Server-side Vulnerabilities">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="BrokenAuthentication.html" class="navigation navigation-next " aria-label="Next page: Broken Authentication">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Misconfiguration & Sensitive Data Exposure","level":"5.1.1","depth":2,"next":{"title":"Broken Authentication","level":"5.1.2","depth":2,"path":"5/BrokenAuthentication.md","ref":"5/BrokenAuthentication.md","articles":[]},"previous":{"title":"Server-side Vulnerabilities","level":"5.1","depth":1,"path":"5/README.md","ref":"5/README.md","articles":[{"title":"Misconfiguration & Sensitive Data Exposure","level":"5.1.1","depth":2,"path":"5/MisconfigurationSensitiveDataExposure.md","ref":"5/MisconfigurationSensitiveDataExposure.md","articles":[]},{"title":"Broken Authentication","level":"5.1.2","depth":2,"path":"5/BrokenAuthentication.md","ref":"5/BrokenAuthentication.md","articles":[]},{"title":"Command Injection","level":"5.1.3","depth":2,"path":"5/CommandInjection.md","ref":"5/CommandInjection.md","articles":[]},{"title":"SQL Injection","level":"5.1.4","depth":2,"path":"5/SQLInjection.md","ref":"5/SQLInjection.md","articles":[]},{"title":"Information Disclosure","level":"5.1.5","depth":2,"path":"5/InformationDisclosure.md","ref":"5/InformationDisclosure.md","articles":[]},{"title":"File Upload Vulnerability","level":"5.1.6","depth":2,"path":"5/FileUploadVulnerability.md","ref":"5/FileUploadVulnerability.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"5/MisconfigurationSensitiveDataExposure.md","mtime":"2022-10-24T02:06:33.114Z","type":"markdown"},"gitbook":{"version":"4.0.2","time":"2022-10-24T07:29:13.347Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

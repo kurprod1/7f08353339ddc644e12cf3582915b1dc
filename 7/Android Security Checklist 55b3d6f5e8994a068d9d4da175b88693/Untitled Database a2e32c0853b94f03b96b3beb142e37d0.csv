@@ -1,0 +1,6 @@
+﻿No,Mekanisme Penyimpanan,Lokasi
+1,Shared Preference,/data/data/<package id>/shared_prefs
+2,Cache,/data/data/<package id>/cache
+3,SQLite Database,/data/data/<package id>/databases
+4,Assets,/data/data/<package id>/files
+5,Custom,SD Card / Internal Storage
