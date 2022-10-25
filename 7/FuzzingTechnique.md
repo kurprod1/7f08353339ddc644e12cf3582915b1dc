@@ -1,7 +1,5 @@
 # Fuzzing Technique
 
-Created: June 22, 2022 1:17 PM
-
 Untuk lab kali ini disediakan beberapa target pada domain vuln.cilsy.id dengan port sebagai berikut :
 
 1. 31335
@@ -56,7 +54,7 @@ Escape character is '^]'.
 
 Akhirnya! Server memberikan respon, tapi menarik ada kode 220 pada responnya. Kita bisa menggunakan google untuk memastikan kode apakah 220 itu.
 
-[https://lh5.googleusercontent.com/TuL3FwQkzEvCnHOROHoA9ZO9qnHXENVymRr1GXZPfsTzkfEIkIsBSgiDCghoB1Mc-61MdGKdiT5ec7MKzepiSs7z316Tuc8qfI7X4nuPrt7I8FAdPOd0-mOAKDw7unIClFLeRPiy78G0niBJHuVJGq7mURc](https://lh5.googleusercontent.com/TuL3FwQkzEvCnHOROHoA9ZO9qnHXENVymRr1GXZPfsTzkfEIkIsBSgiDCghoB1Mc-61MdGKdiT5ec7MKzepiSs7z316Tuc8qfI7X4nuPrt7I8FAdPOd0-mOAKDw7unIClFLeRPiy78G0niBJHuVJGq7mURc)
+![](https://lh5.googleusercontent.com/TuL3FwQkzEvCnHOROHoA9ZO9qnHXENVymRr1GXZPfsTzkfEIkIsBSgiDCghoB1Mc-61MdGKdiT5ec7MKzepiSs7z316Tuc8qfI7X4nuPrt7I8FAdPOd0-mOAKDw7unIClFLeRPiy78G0niBJHuVJGq7mURc)
 
 Dan ternyata memang benar bahwa kode 220 merupakan respon dari FTP Server. Dengan demikian seharusnya kita bisa menghubungkan ke port 31336 dengan perintah ftp biasa.
 

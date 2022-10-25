@@ -162,7 +162,7 @@ $ redis-cli -h 127.0.0.1 GET 1234
 
 Gambar: Data kredensial dari Redis
 
-![Gambar: Hasil pencarian server redis yang tidak menerapkan autentikasi](Misconfiguration%20&%20Sensitive%20Data%20Exposure%20e41edbca6b4340ef84d373d4acd36a06/Untitled.png)
+![Gambar: Hasil pencarian server redis yang tidak menerapkan autentikasi](/5/Misconfiguration%20&%20Sensitive%20Data%20Exposure%20e41edbca6b4340ef84d373d4acd36a06/Untitled.png)
 
 Gambar: Hasil pencarian server redis yang tidak menerapkan autentikasi
 

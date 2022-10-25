@@ -1,7 +1,5 @@
 # Bug Bounty Tips
 
-Created: June 22, 2022 1:17 PM
-
 Perusahaan startup yang terdaftar dan diawasi oleh OJK mewajibkan mereka untuk siap dalam pengamanan siber. Perusahaan yang sudah terdaftar di OJK bisa teman-teman lihat di portal berikut
 
 [Penyelenggara Fintech Terdaftar dan Berizin di OJK per 19 Februari 2020](https://www.ojk.go.id/id/berita-dan-kegiatan/publikasi/Pages/Penyelenggara-Fintech-Terdaftar-dan-Berizin-di-OJK-per-19-Februari-2020.aspx)

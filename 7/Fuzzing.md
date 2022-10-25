@@ -1,7 +1,5 @@
 # Fuzzing
 
-Created: June 22, 2022 1:17 PM
-
 Fuzz testing atau Fuzzing adalah teknik pengujian Black Box, yang pada dasarnya terdiri dari menemukan bug menggunakan injeksi data cacat/semi-cacat secara otomatis.
 
 ![Untitled](Fuzzing%20980b5b39e2544de6954a9de3bfc5b25e/Untitled.png)

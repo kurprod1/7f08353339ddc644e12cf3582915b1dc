@@ -1,7 +1,5 @@
 # Mitigations
 
-Created: June 22, 2022 1:17 PM
-
 DOM-based vulnerability berasal dari celah script yang tidak terstruktur atau tidak adanya validator pada input.
 
 Berikut beberapa sink atau celah script yang dapat memicu DOM-based XSS antara lain:

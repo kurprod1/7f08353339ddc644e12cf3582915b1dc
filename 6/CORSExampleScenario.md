@@ -1,6 +1,5 @@
 # CORS Example Scenario
 
-Created: June 22, 2022 1:17 PM
 
 # Simple Request
 

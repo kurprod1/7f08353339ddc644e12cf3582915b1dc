@@ -1,6 +1,4 @@
-# Websocket
-
-Created: June 22, 2022 1:17 PM
+# Websocket Vulnerabilities
 
 WebSocket banyak digunakan dalam aplikasi web modern. WebSocket digunakan untuk semua jenis tujuan, termasuk melakukan action pengguna dan mengirimkan informasi sensitif. Hampir semua kerentanan keamanan web yang muncul dengan HTTP biasa juga dapat muncul terkait dengan komunikasi WebSockets.
 

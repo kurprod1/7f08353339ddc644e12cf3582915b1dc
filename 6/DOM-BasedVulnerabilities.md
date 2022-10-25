@@ -1,7 +1,5 @@
 # DOM-Based Vulnerabilities
 
-Created: June 22, 2022 1:17 PM
-
 Ada yang menyebut type-0 XSS. Adalah kerentanan yang berfokus pada hirarki aplikasi atau DOM (Document Object Model) dengan cara memodifikasi content pada DOM website pada server-side sehingga akan berakibat pada perilaku pada client-side.
 
 Meskipun memiliki nama type-0 XSS, ini berbeda dengan XSS biasa yang menyimpan payload pada field input.

@@ -1,7 +1,5 @@
 # FTP Fuzzing
 
-Created: June 22, 2022 1:17 PM
-
 Untuk materi FTP server kita akan menggunakan tool BED. BED adalah singkatan dari Brute-force Exploit Detector. Ini dirancang untuk memeriksa potensi adanya buffer overflows, format string et. Al.
 
 ```bash

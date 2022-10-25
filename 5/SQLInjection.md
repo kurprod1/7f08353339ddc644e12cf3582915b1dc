@@ -2,7 +2,7 @@
 
 SQL Injection merupakan celah aplikasi web yang memungkinkan penyerang menyuntikkan SQL query. Ini umumnya memungkinkan penyerang untuk melihat data yang biasanya tidak dapat mereka ambil melalui fitur aplikasi web. Dalam banyak kasus penyerang dapat memodifikasi, atau menghapus data, bahkan bisa menjalankan command shell tertentu tergantung DBMS yang dipergunakan.
 
-![Gambar: Ilustrasi SQL Injection](https://lh6.googleusercontent.com/KnU4ZRm6o508wvWfgJocu_awb_f0Z-Ker9wTDUps80vx7Wxtg3zPlhnu86Aot8rSmlWddKEFpN4vO0Shzd3-bWmUJfXq4GWB5SWP_aq7cRC5dRnc-_tLsT3ez8bJu_l8iGnlvWQqbADe05vAxgwnXFWa8Kk)
+![](https://lh6.googleusercontent.com/KnU4ZRm6o508wvWfgJocu_awb_f0Z-Ker9wTDUps80vx7Wxtg3zPlhnu86Aot8rSmlWddKEFpN4vO0Shzd3-bWmUJfXq4GWB5SWP_aq7cRC5dRnc-_tLsT3ez8bJu_l8iGnlvWQqbADe05vAxgwnXFWa8Kk)
 
 Gambar: Ilustrasi SQL Injection
 

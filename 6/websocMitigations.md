@@ -1,7 +1,5 @@
 # Mitigations
 
-Created: June 22, 2022 1:17 PM
-
 Kita sudah mengetahui kerentanan kerentanan WebSocket. Ada beberapa panduan pencegahan untuk membantu melindungi WebSockets.
 
 # WSS

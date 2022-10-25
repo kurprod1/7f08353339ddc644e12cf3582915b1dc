@@ -1,7 +1,5 @@
 # HTTP Fuzzing
 
-Created: June 22, 2022 1:17 PM
-
 Jika kalian sudah mampu mengidentifikasi port dan jenis service pada materi sebelumnya. Nah di materi ini kita akan mencoba mengidentifikasi apakah terdapat error pada aplikasi yang nanti akan menyebabkan terganggunya availability.
 
 Sebelum masuk ke materi teknis, apabila kalian masih belum terbiasa dengan HTTP Request Header akan bagus jika kalian membaca bahan bacaan berikut.

@@ -1,12 +1,11 @@
 # Symmetric Encryption
 
-Created: June 22, 2022 1:17 PM
 
 Jika kita berbicara enkripsi pada sudut pandang kunci atau password sebenarnya enkripsi terbagi menjadi 2 jenis. Yang pertama adalah enkripsi simetris dimana diperlukan password dan algoritma yang sama untuk membalikkan ciphertext menjadi plaintext.
 
 Enkripsi simetris biasanya dibutuhkan untuk mengamankan informasi untuk kebutuhan beberapa pengguna saja. Misal Adi mengirimkan ke Dian informasi rahasia yang algoritma dan sandi sudah saling mengetahui.
 
-1. **Data Encryption Standard (DES)**
+## **Data Encryption Standard (DES)**
 
 Algoritma DES merupakan salah satu enkripsi simetris dengan ukuran blok 64 bit (8 byte atau maksimal 8 karakter) dan ukuran kunci juga sama 8 byte (harus 8 karakter).
 
@@ -29,11 +28,11 @@ Results: Ini pesan yang sangat rahasia
 
 Untuk referensi lebih lanjut bisa teman-teman pelajari secara mandiri di URL berikut : [https://academic.csuohio.edu/yuc/security/Chapter_06_Data_Encription_Standard.pdf](https://academic.csuohio.edu/yuc/security/Chapter_06_Data_Encription_Standard.pdf)
 
-1. **Advanced Encryption Standard (AES)**
+## **Advanced Encryption Standard (AES)**
 
 AES banyak ditemukan di implementasikan di banyak aplikasi. Itu karena telah menjadi standar global enkripsi dan digunakan untuk menjaga keamanan komunikasi dalam jumlah yang signifikan.
 
-[https://lh6.googleusercontent.com/r-Runoy_o_IOzSXQ2l8kMen6NU-V5SIksn8xpxt-jLc-4Ic3JtofsS3TMgSI0clbIi7a3qOS1jKOgyZYeYhvvnVoctncrFdnXpRNqE6ugmsdJiKivCJQc2XrCF57Xgl3k-UeEDHygRViwP2HdHlYSw65_gE](https://lh6.googleusercontent.com/r-Runoy_o_IOzSXQ2l8kMen6NU-V5SIksn8xpxt-jLc-4Ic3JtofsS3TMgSI0clbIi7a3qOS1jKOgyZYeYhvvnVoctncrFdnXpRNqE6ugmsdJiKivCJQc2XrCF57Xgl3k-UeEDHygRViwP2HdHlYSw65_gE)
+![](https://lh6.googleusercontent.com/r-Runoy_o_IOzSXQ2l8kMen6NU-V5SIksn8xpxt-jLc-4Ic3JtofsS3TMgSI0clbIi7a3qOS1jKOgyZYeYhvvnVoctncrFdnXpRNqE6ugmsdJiKivCJQc2XrCF57Xgl3k-UeEDHygRViwP2HdHlYSw65_gE)
 
 Advanced Encryption Standard (AES) memiliki keunggulan kecepatan dan keamanan yang lebih baik. Beberapa aplikasi seperti Whatsapp, AES digunakan untuk mengenkripsi history chat yang tersimpan di local storage Android.
 
@@ -59,7 +58,7 @@ $ python aes_iv_decryption.py admin fqvNPzloIG8o9uHcB....
 Result : Ini pesan rahasia
 ```
 
-1. **Rivest Cipher 4 (RC4)**
+## **Rivest Cipher 4 (RC4)**
 
 Jika pada materi sebelumnya hasil dari enkripsi terlihat ciphertext sangat berbeda dari plaintext. Namun pada enkripsi ini hanya mengacak posisi data yang ada. Sehingga enkripsi ini lemah dibanding dengan AES maupun DES.
 

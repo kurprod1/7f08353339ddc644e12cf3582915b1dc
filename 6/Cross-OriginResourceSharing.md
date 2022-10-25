@@ -1,7 +1,5 @@
 # Cross-Origin Resource Sharing
 
-Created: June 22, 2022 1:17 PM
-
 Cross-Origin Resource Sharing (CORS) adalah mekanisme berbasis header HTTP yang memungkinkan server untuk mengizinkan sharing resource kepada domain selain domain asal. Dalam cross-origin request, browser mengirimkan header yang menunjukkan method HTTP dan header yang akan digunakan dalam permintaan yang sebenarnya.
 
 Contoh request cross-origin adalah kode JavaScript front-end yang disajikan dari [https://domain-a.com](https://domain-a.com/) menggunakan XMLHttpRequest untuk membuat permintaan [https://domain-b.com/data.json](https://domain-b.com/data.json).

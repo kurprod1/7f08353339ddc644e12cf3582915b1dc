@@ -73,7 +73,7 @@
     * [CORS Mitigations](/6/CORSMitigations.md)
     * [Hands-on Lab](/6/CORSHands-onLab.md)
   * [Click-Jacking](/6/ClickJacking.md)
-  * [DOM-based Vulnerability](/6/DOMbasedVulnerability.md)
+  * [DOM-based Vulnerability](/6/DOM-BasedVulnerabilities.md)
     * [Mitigations](/6/DOMMitigations.md)
     * [Hands-on Lab](/6/DOMHands-onLabs.md)
   * [Websocket Vulnerabilities](/6/Websocket.md)
@@ -95,7 +95,7 @@
     * [Crypto Attack](7/CryptoAttack.md)
     * [Exercise](7/CrypExercises.md)
   * [Mobile Exploitation](/7/MobileExploitation.md)
-    * [Android]
+    * [Android](/7/README.md)
       * [Pengenalan Arsitektur Android](7/PengenalanArsitekturAndroid.md)
       * [Mempersiapkan APK Studio](7/MempersiapkanAPKStudio.md)
       * [Mempersiapkan Frida](7/MempersiapkanFrida.md)

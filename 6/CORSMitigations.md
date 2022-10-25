@@ -1,7 +1,5 @@
 # CORS Mitigations
 
-Created: June 22, 2022 1:17 PM
-
 Kerentanan CORS muncul salah satunya karena misconfiguration. Oleh karena itu, pencegahan Bagian berikut menjelaskan beberapa pertahanan yang efektif terhadap serangan CORS. Ada beberapa cara untuk mencegah adanya exploit CORS diantaranya adalah :
 
 # Konfigurasi yang tepat dari Cross-Origin request

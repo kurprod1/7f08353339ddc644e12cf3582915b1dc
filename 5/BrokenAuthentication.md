@@ -22,7 +22,7 @@ Lebih jelasnya mengenai konsep stateless adalah dimana request yang dilakukan ol
 
 Katakanlah misalnya kita baru saja masuk ke akun twitter kita dan kita menavigasi ke halaman pengaturan kita, dengan perilaku HTTP default, kita akan diminta untuk masuk kembali karena server tidak tahu bahwa kita baru saja masuk tetapi dengan otentikasi sesi dan token maka dapat memberi tahu server bahwa kami sudah pernah melewati proses autentikasi sebelumnya.
 
-![Gambar: Konsep Autentikasi menggunakan Sesi](https://lh6.googleusercontent.com/EpAyx9Qum7MEgtiN9ci3Wkg-RcXViQcNST5njqgIa3k19uzNLX3XYsFr6K8m6VsZYvX9LEevLNvoUeNs5BgkvNNxsPqB295siorqY548qsxJeWWd7II11lRvrRUToGC-PNBTwba15uPeSTdFlvFhdQUEKp8)
+![](https://lh6.googleusercontent.com/EpAyx9Qum7MEgtiN9ci3Wkg-RcXViQcNST5njqgIa3k19uzNLX3XYsFr6K8m6VsZYvX9LEevLNvoUeNs5BgkvNNxsPqB295siorqY548qsxJeWWd7II11lRvrRUToGC-PNBTwba15uPeSTdFlvFhdQUEKp8)
 
 Gambar: Konsep Autentikasi menggunakan Sesi
 

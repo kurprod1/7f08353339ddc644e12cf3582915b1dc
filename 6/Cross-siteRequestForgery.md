@@ -1,6 +1,5 @@
 # Cross-site Request Forgery
 
-Created: June 22, 2022 1:17 PM
 
 Cross-Site Request Forgery (CSRF) serangan yang memaksa pengguna untuk melakukan tindakan yang tidak diinginkan pada aplikasi web di mana mereka saat ini diautentikasi.
 
@@ -19,7 +18,7 @@ Poin 1, 2, dan 3 sangat penting untuk menghadirkan kerentanan, sementara poin 4 
 
 Ketika kalian mengakses suatu domain, browser akan secara otomatis mengirimkan informasi data cookie sesuai dengan domain yang diatur sebelumnya. Artinya misal kalian mengakses google.com maka browser akan mengirimkan cookie secara otomatis yang tersimpan sebelumnya.
 
-[https://lh6.googleusercontent.com/IF9qvh5Va1XAM6Vir6Xt2cBjEzs5Af6XrCsIdbGctEeUAbVJW5wNwpyOfvOfYpFt_hkqTDZ1daUQtF6eeSfezmobrbv9DkLEO_SwVVEvhZa6rp8q3fQ3dSOOMnIVIIML3B93_6-ypXHlpy13SAonFFkva04](https://lh6.googleusercontent.com/IF9qvh5Va1XAM6Vir6Xt2cBjEzs5Af6XrCsIdbGctEeUAbVJW5wNwpyOfvOfYpFt_hkqTDZ1daUQtF6eeSfezmobrbv9DkLEO_SwVVEvhZa6rp8q3fQ3dSOOMnIVIIML3B93_6-ypXHlpy13SAonFFkva04)
+![](https://lh6.googleusercontent.com/IF9qvh5Va1XAM6Vir6Xt2cBjEzs5Af6XrCsIdbGctEeUAbVJW5wNwpyOfvOfYpFt_hkqTDZ1daUQtF6eeSfezmobrbv9DkLEO_SwVVEvhZa6rp8q3fQ3dSOOMnIVIIML3B93_6-ypXHlpy13SAonFFkva04)
 
 Gambar: Ilustrasi serangan CSRF
 

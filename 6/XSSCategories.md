@@ -13,7 +13,7 @@ docker run --rm -it -p 31331:80 vulnerables/web-dvwa
 
 Setelah dijalankan kita akan bisa membuka halaman DVWA melalui alamat [http://localhost:31330](http://localhost:31330/) dengan web browser.
 
-![https://lh5.googleusercontent.com/dRTlDo5ttTWQ2ThisCQdYggrKWiF2KWqxCUWdvpZ28sn1TTokEnvzd4fUipDjFIj4Zd_UBchcIRxHnnSdmvpkduoCa6p0FW9fxgh666CSKKIsT5knaKYvLuA9BU1NyEWbeJzqCOQiA5kPhEfDEwnOLMBu1k](https://lh5.googleusercontent.com/dRTlDo5ttTWQ2ThisCQdYggrKWiF2KWqxCUWdvpZ28sn1TTokEnvzd4fUipDjFIj4Zd_UBchcIRxHnnSdmvpkduoCa6p0FW9fxgh666CSKKIsT5knaKYvLuA9BU1NyEWbeJzqCOQiA5kPhEfDEwnOLMBu1k)
+![](https://lh5.googleusercontent.com/dRTlDo5ttTWQ2ThisCQdYggrKWiF2KWqxCUWdvpZ28sn1TTokEnvzd4fUipDjFIj4Zd_UBchcIRxHnnSdmvpkduoCa6p0FW9fxgh666CSKKIsT5knaKYvLuA9BU1NyEWbeJzqCOQiA5kPhEfDEwnOLMBu1k)
 
 Kalian bisa melewati halaman login dengan memanfaatkan celah SQL Injection berikut :
 
@@ -24,7 +24,7 @@ Selanjutnya akan muncul halaman setup DVWA, kalian cukup mengklik tombol **creat
 Dan setelah ini web DVWA siap untuk kita gunakan dalam pembelajaran dan sekedar informasi tambahan default password DVWA username **admin**
 dan password adalah **password**
 
-![https://lh3.googleusercontent.com/pjryOOW5MMwGcebyTxY636StXwLR3QiFHLkr8Q8GnRpdwxbccoHs-HZa2V_yqF86wnq5a0Ru4P66yvhjHJ3kwTff11ic96psABuTrtdILygUNLjsaf-3cEBXGeQV-VK0fNL8sBZb81Qgro_SKmBFERzsYO0](https://lh3.googleusercontent.com/pjryOOW5MMwGcebyTxY636StXwLR3QiFHLkr8Q8GnRpdwxbccoHs-HZa2V_yqF86wnq5a0Ru4P66yvhjHJ3kwTff11ic96psABuTrtdILygUNLjsaf-3cEBXGeQV-VK0fNL8sBZb81Qgro_SKmBFERzsYO0)
+![](https://lh3.googleusercontent.com/pjryOOW5MMwGcebyTxY636StXwLR3QiFHLkr8Q8GnRpdwxbccoHs-HZa2V_yqF86wnq5a0Ru4P66yvhjHJ3kwTff11ic96psABuTrtdILygUNLjsaf-3cEBXGeQV-VK0fNL8sBZb81Qgro_SKmBFERzsYO0)
 
 ## **XSS Persistent**
 

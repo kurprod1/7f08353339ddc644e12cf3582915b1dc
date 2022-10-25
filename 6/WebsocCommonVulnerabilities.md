@@ -1,7 +1,5 @@
 # Common Vulnerabilities
 
-Created: June 22, 2022 1:17 PM
-
 # Serangan DoS
 
 WebSockets memungkinkan jumlah koneksi yang tidak terbatas mencapai server. Ini memungkinkan penyerang membanjiri server dengan serangan DOS. Ini sangat membebani server dan menghabiskan sumber daya di server itu. Kemudian situs web menjadi sangat lambat.
